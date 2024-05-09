@@ -9,8 +9,6 @@ import { useSelector } from 'react-redux';
 function App() {
   const selectContacts = useSelector((state) => state.contacts.items);
 
-  const selectNameFilter = useSelector((state) => state.filters.name);
-
   return (
     <div className={css.container}>
     <h1>Phonebook</h1>
