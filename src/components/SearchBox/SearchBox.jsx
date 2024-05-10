@@ -3,7 +3,7 @@ import css from '../SearchBox/SearchBox.module.css';
 import { useDispatch } from 'react-redux';
 import { changeFilter } from '../../redux/filtersSlice';
 
-export default function ({onInputChange}) {
+export default function () {
     const dispatch = useDispatch();
     const filterId=useId();
 return (<div className={css.container}>
